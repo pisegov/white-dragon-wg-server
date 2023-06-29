@@ -1,0 +1,1 @@
+rootProject.name = "com.myaxa.white-dragon-wg-server"
