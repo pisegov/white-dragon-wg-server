@@ -1,5 +1,6 @@
 package com.myaxa
 
+import com.myaxa.features.configureSingleConfigRouting
 import io.ktor.server.application.*
 import io.ktor.server.engine.*
 import io.ktor.server.netty.*
@@ -14,5 +15,7 @@ fun Application.module() {
     configureSerialization()
     configureDatabases()
     configureSecurity()
+    configureRouting()
+    configureSingleConfigRouting()
     configureRouting()
 }
